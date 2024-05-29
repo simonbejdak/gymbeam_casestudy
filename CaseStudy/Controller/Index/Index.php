@@ -16,6 +16,6 @@ class Index implements HttpGetActionInterface
 
     public function execute()
     {
-        die($this->scopeConfig->getValue('configuration/general/greeting', ScopeInterface::SCOPE_STORE));
+        die($this->scopeConfig->getValue('configuration/general/greeting', ScopeInterface::SCOPE_STORE));-
     }
 }
